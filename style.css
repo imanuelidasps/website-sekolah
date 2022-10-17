@@ -9,6 +9,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -185,6 +189,7 @@ button:hover {
 .section {
   width: 100%;
   min-height: 100vh;
+  padding-top: 3rem;
 }
 
 .container-1 {
@@ -429,7 +434,7 @@ img {
 /* Footer */
 
 footer {
-  padding: 25px 0;
+  padding: 25px;
   background-color: #9c9efe;
   color: #ffffff;
   text-align: center;
